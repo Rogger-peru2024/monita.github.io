@@ -1,0 +1,91 @@
+
+body {
+    
+    flex-wrap: row;
+    background-image: url(imagenes/atardecer.jpg);
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    background-size: cover;
+  }
+h1{
+    padding: 30px;
+    background-color: blueviolet;     
+    opacity: 1;   
+    font-family: cursive;   
+    text-align: center;
+    width: 100%;
+    color: rgb(124, 214, 102);
+}
+.letra{
+    
+    font-family: cursive;
+    font-size: x-large;
+    font-size: 50px;
+    width: 100%;
+    color: rgb(235, 36, 175);
+    padding: 40px;
+  }
+  
+    
+  
+
+  
+  .contenido{
+       
+    
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    position: relative;
+    width: 100px;
+    text-align: center;
+   
+
+  }
+  .imgen{
+    display: flex;
+    flex-direction: column;
+    min-height: 70px;
+    width: 800px;
+    float: left;   
+    margin: 20px;    
+    padding: 2px;   
+    position: relative;    
+    justify-content: center;
+    text-align: center;
+}
+ 
+
+   
+
+
+  
+
+  }
+@media (max-width: 500px) {
+  h1 {
+    width: 100px;    
+    padding: 20px;
+  
+  }
+  .contenido, .letra{
+    width: 100%;
+
+  }
+  .letra{
+    flex-direction: column;
+
+  }
+  .imgen{
+    width: 400px;    
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+
+  }
+}
+  
+     
+     
+
+    
