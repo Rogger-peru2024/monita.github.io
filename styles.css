@@ -15,7 +15,7 @@ h1{
     text-align: center;
     width: 100%;
     color: rgb(124, 214, 102);
-
+}
 .letra{
     
     font-family: cursive;
@@ -55,13 +55,9 @@ h1{
     text-align: center;
 }
  
-
-   
-
+ 
 
   
-
-  }
 @media (max-width: 500px) {
   h1 {
     width: 100px;    
